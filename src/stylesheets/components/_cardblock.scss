@@ -1,0 +1,23 @@
+.CardBlock {
+    margin: 0px auto 10px auto;
+    width: 1100px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.32);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.32);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.32);
+
+    .CardBlock {
+        width: 100%;
+    }
+}
+
+@media(max-width:1100px) and (min-width:940px) {
+    .CardBlock {
+        width: 940px;
+    }
+}
+
+@media(max-width:940px) {
+    .CardBlock {
+        width: 98%;
+    }
+}

@@ -1,0 +1,30 @@
+.ProjectBlock {
+    display: block;
+    padding: 10px;
+
+    .title {
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    .detail {
+        display: block;
+        margin-top:10px;
+        &-hidden {
+            display: none;
+        }
+    }
+
+    .flink {
+        cursor: pointer;
+        color: darkgreen;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+}
+
+@media(max-width:940px) {
+    .ProjectBlock {
+        padding:20px;
+    }
+}

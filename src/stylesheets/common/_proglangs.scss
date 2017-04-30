@@ -1,0 +1,52 @@
+.proglangs {
+    display: inline;
+    background: black;
+    color: white;
+    border-radius: 12px;
+    padding: 2px 6px 2px 6px;
+    margin-right: 3px;
+
+    &.javascript {
+        background: brown;
+    }
+
+    &.typescript {
+        background: #951a1a;
+    }
+
+    &.react {
+        background: darkcyan;
+    }
+
+    &.html {
+        background: green;
+    }
+
+    &.css {
+        background: teal;
+    }
+
+    &.sass {
+        background: teal;
+    }
+
+    &.java {
+        background: darkslateblue;
+    }
+
+    &.scala {
+        background: saddlebrown;
+    }
+
+    &.akkahttp  {
+        background: #672505;
+    }
+
+    &.cs {
+        background: blueviolet;
+    }
+
+    &.php {
+        background: darkslategray;
+    }
+}

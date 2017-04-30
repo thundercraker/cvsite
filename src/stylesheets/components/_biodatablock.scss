@@ -1,0 +1,33 @@
+.BioDataBlock {
+    display: table;
+    padding: 10px;
+
+    .detail_col {
+        display: table-cell;
+        padding-left: 10px;
+    }
+
+    .profile_pic_col {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: right;
+        padding: 10px;
+
+        .profile_pic {
+            border-radius: 50%;
+            width: 150px;
+        }
+    }
+}
+
+@media(max-width:480px) {
+    .BioDataBlock {
+        .detail_col{
+            text-align: center;
+        }
+
+        .profile_pic_col {
+            display: none;
+        }
+    }
+}

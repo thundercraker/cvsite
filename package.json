@@ -1,0 +1,28 @@
+{
+  "name": "yumashish_www",
+  "version": "1.0.0",
+  "description": "Website of www.yumashish.com",
+  "main": "index.html",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Yumashish Subba",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^15.0.21",
+    "@types/react-dom": "^0.14.23",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.1.2",
+    "css-loader": "^0.28.0",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "node-sass": "^4.5.2",
+    "sass-loader": "^6.0.3",
+    "source-map-loader": "^0.2.1",
+    "style-loader": "^0.16.1",
+    "typescript": "^2.2.2",
+    "webpack": "^2.3.3"
+  }
+}
