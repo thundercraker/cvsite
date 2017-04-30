@@ -19,17 +19,19 @@ class CVPage extends React.Component<undefined, undefined> {
             <ProjectBlock 
                 title="CV Website"
                 languages="Javascript, Typescript, Sass, React"
-                github="#"
+                github="https://github.com/thundercraker/cvsite"
                 summary="A simple CV webpage built with React">
                 This website and it's components are available for reuse and extension through the github collaborative 
                 programming platform. It uses the React framework with typescript with webpack as it's build tool
             </ProjectBlock>
             <ProjectBlock
-                title="Project Two"
-                languages="Scala"
-                github="#"
-                summary="A simple website api for various reasons using scala and akka http">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                title="Material List View"
+                languages="Java"
+                github="https://github.com/thundercraker/YumaMaterialListView"
+                summary="A simple library to quickly create an Andriod Drawer">
+                Android drawers have a lot of boilerplate code which I was convinved could be hidden away in a 
+                library with only a comma seperated list of titles, their children and associated images needed to create 
+                a drawer controlled by a stipulated menu button
             </ProjectBlock>
             <SummaryBlock place="Agoda Services Ltd"
                 position="Fullstack Engineer"
@@ -90,8 +92,9 @@ class CVPage extends React.Component<undefined, undefined> {
                 <ProjectBlock 
                     title="GMaps Kakunin"
                     languages="Java"
-                    github="#"
+                    github=""
                     summary="An application to showcase Google Maps for Android">
+                    This application is available in the Android App Store: <a href="https://play.google.com/store/apps/details?id=com.yumashish.kakunin&hl=en">GMaps Kakunin by Yuma</a>
                 </ProjectBlock>
             </SummaryBlock>
             <div className="CardBlock Section">
@@ -109,7 +112,7 @@ class CVPage extends React.Component<undefined, undefined> {
                     </ul>
                     <ProjectBlock title="XBuilder: Programmable Legos"
                         languages="C#, PHP"
-                        github="#"
+                        github=""
                         summary="A game where people can build things out of programmable blocks">
                         The concept of XBuilder is to be able to build spacecraft out of blocks (much like 
                         legos). These blocks could be programmed to do things. For example a simple program such 

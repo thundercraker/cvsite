@@ -4,7 +4,7 @@
   "description": "Website of www.yumashish.com",
   "main": "index.html",
   "scripts": {
-    "test": "mocha"
+    "test": ""
   },
   "author": "Yumashish Subba",
   "license": "ISC",
